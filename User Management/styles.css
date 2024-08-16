@@ -1,0 +1,154 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container Styles */
+.login-container {
+    background-color: #fff;
+    padding: 40px 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Header Styles */
+.login-container h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 2rem;
+}
+
+/* Form Input Styles */
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s;
+}
+
+.login-container input[type="text"]:focus,
+.login-container input[type="password"]:focus {
+    border-color: #ff4e50;
+    outline: none;
+}
+
+/* Button Styles */
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff4e50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.login-container button:hover {
+    background-color: #ff7675;
+}
+
+/* Error Message Styles */
+.error {
+    background-color: #ff4e50;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+/* Existing styles... */
+
+/* General Styles */
+
+/* Container Styles */
+.register-container {
+    background-color: #fff;
+    padding: 40px 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Header Styles */
+.register-container h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 2rem;
+}
+
+/* Form Input Styles */
+.register-container input[type="text"],
+.register-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s;
+}
+
+.register-container input[type="text"]:focus,
+.register-container input[type="password"]:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+/* Button Styles */
+.register-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff4e50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.register-container button:hover {
+    background-color: #ff7675;
+}
+
+/* Success and Error Message Styles */
+.success {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.error {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
