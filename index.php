@@ -19,7 +19,7 @@ if (!isset($_SESSION['user_id'])) {
 <body>
     <header>
         <div class="welcome-container">
-            <p class="welcome-message">Hi, <?= htmlspecialchars($_SESSION['username']); ?>!</p>
+            <p class="welcome-message">Hello, <?= htmlspecialchars($_SESSION['username']); ?>!</p>
         </div>
         <h1>Recipe Manager</h1>
         <nav>
